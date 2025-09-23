@@ -19,9 +19,9 @@ body {
 #app-container{
     width: 100%;
     max-width: 600px;
-    background-color: #fefffd;
+    background-color: #f5f8f8;
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 13px 30px rgba(0, 0, 0, 0.2);
     padding: 30px;
     box-sizing: border-box;
     margin: 20% auto;

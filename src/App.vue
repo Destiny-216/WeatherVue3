@@ -1,6 +1,6 @@
 <template>
     <div id="app-container">
-        <h1>天气预报</h1>
+        <h1>天気予報</h1>
         <div class="search-container">
             <input v-model="city" @keyup.enter="getWeather" placeholder="都市名を入力します， 例:Osaka" />
             <button class="search-btn" @click="getWeather">検索</button>
