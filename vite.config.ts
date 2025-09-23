@@ -11,12 +11,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  build: {
-    rollupOptions: {
-      external: ['axios'],
-    }
-  },
-
+ 
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
