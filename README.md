@@ -44,19 +44,6 @@ OpenWeatherMap API
 Axios API
 
 
-📂 プロジェクト構成（簡略）
-WeatherForecast/
-├── src/
-│   ├── components/
-│   │   └── WeatherCard.vue   # 天気情報表示コンポーネント
-│   ├── App.vue               # メイン画面
-│   └── main.ts               # エントリーポイント
-├── index.html
-├── package.json
-├── vite.config.ts
-└── README.md
-
-
 🚀 実行方法 
 npm install
 npm run dev
@@ -71,16 +58,6 @@ npm run dev
 
 データ取得時の基本的なエラーハンドリング
 
-💡 学んだこと・工夫した点
-
-Vue3（Composition API）を用いた基本的な構成
-
-API 連携の流れ（取得 → 加工 → 表示）
-
-コンポーネントを分割することで、
-見通しの良いコード構成になること
-
-エラーが発生した際に、原因を一つずつ確認しながら対応する姿勢
 
 📝 備考
 本プロジェクトは、
