@@ -44,9 +44,12 @@ OpenWeatherMap API
 Axios API
 
 
-🚀 実行方法 :
-npm install
+実行方法 :
+npm install,
 npm run dev
+
+🔗 **Demo**  
+https://weather-vue3-app.vercel.app/
 
 🔧 主な機能
 
