@@ -56,8 +56,6 @@ const getWeather = async() => {
     }
     
 }
-
-
 </script>
 
 <style lang="scss" scoped>

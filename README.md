@@ -43,64 +43,25 @@ OpenWeatherMap API
 
 Axios API
 
-� プロジェクト構造
 
-```
+📂 プロジェクト構成（簡略）
 WeatherForecast/
-├── public/                 # 静的リソース
 ├── src/
-│   ├── components/         # Vueコンポーネント
-│   │   └── WeatherCard.vue # 天気情報カードコンポーネント
-│   ├── App.vue             # メインアプリコンポーネント
-│   ├── main.ts             # アプリのエントリーポイント
-│   ├── style.css           # グローバルスタイル
-│   └── shims-vue.d.ts      # Vueの型定義
-├── index.html              # HTMLテンプレート
-├── package.json            # プロジェクト設定と依存関係
-├── vite.config.ts          # Vite設定
-├── tsconfig*.json          # TypeScript設定
-└── README.md               # プロジェクトドキュメント
-```
+│   ├── components/
+│   │   └── WeatherCard.vue   # 天気情報表示コンポーネント
+│   ├── App.vue               # メイン画面
+│   └── main.ts               # エントリーポイント
+├── index.html
+├── package.json
+├── vite.config.ts
+└── README.md
 
-🚀 インストールと実行
 
-### 環境要件
-
-- Node.js ^20.19.0 || >=22.12.0
-
-### 依存関係のインストール
-
-```bash
+🚀 実行方法 
 npm install
-```
-
-### 開発モードでの実行
-
-```bash
 npm run dev
-```
 
-アプリが `http://localhost:5173` で起動します。
-
-### 本番ビルド
-
-```bash
-npm run build
-```
-
-### 本番ビルドのプレビュー
-
-```bash
-npm run preview
-```
-
-### 型チェック
-
-```bash
-npm run type-check
-```
-
-�🔧 主な機能
+🔧 主な機能
 
 天気情報 API からデータを取得
 
@@ -124,4 +85,3 @@ API 連携の流れ（取得 → 加工 → 表示）
 📝 備考
 本プロジェクトは、
 Vue3 と TypeScript、Web API の基礎を学習する目的で制作した個人開発アプリです。
-実務に近い形で Web アプリ開発の流れを体験することを重視しました。
