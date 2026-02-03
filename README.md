@@ -44,7 +44,7 @@ OpenWeatherMap API
 Axios API
 
 
-🚀 実行方法 
+実行方法 :
 npm install
 npm run dev
 
