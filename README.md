@@ -45,7 +45,8 @@ Axios API
 
 
 実行方法 :
-npm install
+
+npm install,
 npm run dev
 
 🔧 主な機能
