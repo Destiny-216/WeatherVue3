@@ -45,6 +45,10 @@ Axios API
 
 
 実行方法 :
+<<<<<<< HEAD
+=======
+
+>>>>>>> 561dff7eb27fc49579ec91194a25e0c0b3364dc6
 npm install,
 npm run dev
 
